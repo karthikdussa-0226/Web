@@ -1,0 +1,289 @@
+{
+  "id": "89cc893d-5c1e-440f-a5e5-13cb74161d2d",
+  "version": "2.0",
+  "name": "Business Card",
+  "url": "http://localhost:7882/index.html",
+  "tests": [{
+    "id": "df6ea4b1-3061-4e07-8886-1f0059d7e855",
+    "name": "Cards",
+    "commands": [{
+      "id": "cf72b358-293c-4bd8-a0db-2f98fd0653fc",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:7882/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3a4fd3eb-fc56-440d-a10e-ba9095f5072b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x840",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53857224-3820-4af6-aea0-20893968ec20",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cards:nth-child(1) img",
+      "targets": [
+        ["css=.cards:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='photo']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "fe921db4-11c6-4b50-8916-ca80c071ef4e",
+    "name": "facebook",
+    "commands": [{
+      "id": "9564b5cb-209d-4367-bfd8-d7fd2732dd65",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:7882/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4124ebe-10ed-4b1d-9fe5-c07a458ea39e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1e565ce0-5913-4895-9539-d09318ab75d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cards:nth-child(1) li:nth-child(1) > a",
+      "targets": [
+        ["css=.cards:nth-child(1) li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://www.facebook.com/karthikkd.dussa')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b8d464-2230-46b4-b454-947b587e326e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb",
+      "targets": [
+        ["css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb", "css:finder"],
+        ["xpath=//img[contains(@src,'https://scontent.fbom32-1.fna.fbcdn.net/v/t1.6435-9/186997630_1082447415578521_7730163041986182267_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=IV8SbeytQ94AX_R1Cia&_nc_ht=scontent.fbom32-1.fna&oh=0ff66b3560fa6db2ac54302ba4b3e79c&oe=61481024')]", "xpath:img"],
+        ["xpath=//div[@id='mount_0_0_47']/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7b0ac78-8e9e-4a89-b014-1c007c0b059c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb:nth-child(1)",
+      "targets": [
+        ["css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://scontent.fbom32-1.fna.fbcdn.net/v/t1.6435-9/186997630_1082447415578521_7730163041986182267_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=IV8SbeytQ94AX_R1Cia&_nc_ht=scontent.fbom32-1.fna&oh=0ff66b3560fa6db2ac54302ba4b3e79c&oe=61481024')]", "xpath:img"],
+        ["xpath=//div[@id='mount_0_0_47']/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c7dcece3-c6ad-4e23-a816-e25883dcaf39",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb:nth-child(1)",
+      "targets": [
+        ["css=.gs1a9yip > .do00u71z > .gs1a9yip > .i09qtzwb:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://scontent.fbom32-1.fna.fbcdn.net/v/t1.6435-9/186997630_1082447415578521_7730163041986182267_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=IV8SbeytQ94AX_R1Cia&_nc_ht=scontent.fbom32-1.fna&oh=0ff66b3560fa6db2ac54302ba4b3e79c&oe=61481024')]", "xpath:img"],
+        ["xpath=//div[@id='mount_0_0_47']/div/div/div/div[3]/div/div/div/div/div/div/div/div/div/div/div/div[2]/div/a/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "863d1610-0294-4b86-b436-c7d1962e766f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "649d5d2a-bc81-4eda-930d-dc8b901c8f05",
+    "name": "twitter",
+    "commands": [{
+      "id": "edc81188-b42f-4d26-b1b4-24aec9963b35",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:7882/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "170632cd-c727-4cf4-bebf-b86d4e2aa560",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "056ce0df-5fe9-44d8-a9cd-5d8f48416325",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cards:nth-child(1) .fa-twitter",
+      "targets": [
+        ["css=.cards:nth-child(1) .fa-twitter", "css:finder"],
+        ["xpath=//li[2]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b837773-0b10-4392-af62-91a6f7b76491",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-901oao",
+      "targets": [
+        ["css=.css-1dbjc4n:nth-child(1) > .css-1dbjc4n > .css-1dbjc4n:nth-child(1) > .css-1dbjc4n:nth-child(2) > .css-4rbku5 > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div/nav/div/div[2]/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div[2]/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "793990df-320c-499c-8b5f-431f3d7054be",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.r-1o87qq2 > .css-901oao",
+      "targets": [
+        ["css=.r-1o87qq2 > .css-901oao", "css:finder"],
+        ["xpath=//div[@id='react-root']/div/div/div[2]/main/div/div/div/div/div/div[2]/div/div/nav/div/div[2]/div/div[2]/a/div", "xpath:idRelative"],
+        ["xpath=//nav/div/div[2]/div/div[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a62fce64-bb69-40f2-a748-fb3df1321b2a",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "ee6dbd82-e53a-403f-aa08-60b867195ccb",
+    "name": "Linkedln",
+    "commands": [{
+      "id": "b6f0d025-faca-4dcf-bb3e-804826bbb8df",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:7882/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d92afce9-39ec-4c15-a28b-6237f083fff8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1053x807",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3765a599-9141-4551-b5f5-fef6104d2ee2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cards:nth-child(1) .fa-linkedin",
+      "targets": [
+        ["css=.cards:nth-child(1) .fa-linkedin", "css:finder"],
+        ["xpath=//li[3]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf9bc890-3437-403a-b874-5a6601514830",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember101",
+      "targets": [
+        ["id=ember101", "id"],
+        ["css=#ember101", "css:finder"],
+        ["xpath=//img[contains(@src,'https://media-exp1.licdn.com/dms/image/C4D0BAQHgsY5LmE8u9Q/company-logo_100_100/0/1519865698490?e=1637798400&v=beta&t=PpX42ugaxva6mevB7AyTZCdQPzf0eAbRWAKNcttnDio')]", "xpath:img"],
+        ["xpath=//img[@id='ember101']", "xpath:attributes"],
+        ["xpath=//section[@id='ember43']/div[2]/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02a869ff-a88b-45f9-8a9a-95c8ac51b564",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=ember101",
+      "targets": [
+        ["id=ember101", "id"],
+        ["css=#ember101", "css:finder"],
+        ["xpath=//img[contains(@src,'https://media-exp1.licdn.com/dms/image/C4D0BAQHgsY5LmE8u9Q/company-logo_100_100/0/1519865698490?e=1637798400&v=beta&t=PpX42ugaxva6mevB7AyTZCdQPzf0eAbRWAKNcttnDio')]", "xpath:img"],
+        ["xpath=//img[@id='ember101']", "xpath:attributes"],
+        ["xpath=//section[@id='ember43']/div[2]/div[2]/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca013e7b-0f4e-41b6-b9cc-30991746a196",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=ember51",
+      "targets": [
+        ["id=ember51", "id"],
+        ["css=#ember51", "css:finder"],
+        ["xpath=//a[@id='ember51']", "xpath:attributes"],
+        ["xpath=//section[@id='ember43']/div[2]/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/in/dussakarthikpanchakshari/edit/intro/')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "04a5b9c4-93f1-49ea-82a6-08e01742487a",
+    "name": "Instagram",
+    "commands": [{
+      "id": "6300518e-950e-40dd-a344-510e1c6c1137",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:7882/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3724a2b3-e544-4e59-8ead-58e2d99bebcf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1057x808",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "650cc024-210d-4163-982f-dbe73dc820d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cards:nth-child(1) .fa-instagram",
+      "targets": [
+        ["css=.cards:nth-child(1) .fa-instagram", "css:finder"],
+        ["xpath=//li[4]/a/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b4dbb86-0338-42cc-9a00-57887bbc24f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.be6sR",
+      "targets": [
+        ["css=.be6sR", "css:finder"],
+        ["xpath=//img[@alt='Change Profile Photo']", "xpath:img"],
+        ["xpath=//div[@id='react-root']/section/main/div/header/div/div/div/button/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "032e4e64-2fb5-4d6f-8563-d0a1cc1a7041",
+    "name": "negative insta",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "ed35fcc0-e93e-49e6-a410-3100360dc5d8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["df6ea4b1-3061-4e07-8886-1f0059d7e855"]
+  }],
+  "urls": ["http://localhost:7882/index.html"],
+  "plugins": []
+}
